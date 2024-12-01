@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>421</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>ID_Cate</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tên Món</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Giá</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mô tả</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="btn_add">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>310</y>
+      <width>56</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Thêm</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_edit">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>310</y>
+      <width>56</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sửa</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_delete">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>310</y>
+      <width>56</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Xóa</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
